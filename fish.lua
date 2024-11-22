@@ -24,7 +24,7 @@ local WatermarkConnection = game:GetService('RunService').RenderStepped:Connect(
         FrameCounter = 0;
     end;
 
-    Library:SetWatermark(('HUZ HUB V1.2.3 | %s fps | %s ms'):format(
+    Library:SetWatermark(('HUZ HUB  | %s fps | %s ms'):format(
         math.floor(FPS),
         math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())
     ));
@@ -809,9 +809,9 @@ SaveManager:IgnoreThemeSettings()
 
 SaveManager:SetIgnoreIndexes({ 'MenuKeybind' })
 
-ThemeManager:SetFolder('RinnsHub')
+ThemeManager:SetFolder('Huz Hub')
 
-SaveManager:SetFolder('RinnsHub/Fisch')
+SaveManager:SetFolder('Huz Hub/Fisch')
 
 SaveManager:BuildConfigSection(Tabs.Settings)
 
@@ -819,7 +819,7 @@ ThemeManager:ApplyToTab(Tabs.Settings)
 
 SaveManager:LoadAutoloadConfig()
 
-local Version = "1.2.3"
+local Version = "1.0"
 
 task.spawn(function()
     local success, LatestVer = pcall(function()
