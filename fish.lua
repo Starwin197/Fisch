@@ -4,7 +4,7 @@ local ThemeManager = loadstring(game:HttpGet(repo ..'Gui%20Lib%20%5BThemeManager
 local SaveManager = loadstring(game:HttpGet(repo ..'Gui%20Lib%20%5BSaveManager%5D'))()
 
 local Window = Library:CreateWindow({
-    Title = 'HUZ HUB',
+    Title = 'STAR HUB',
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -24,7 +24,7 @@ local WatermarkConnection = game:GetService('RunService').RenderStepped:Connect(
         FrameCounter = 0;
     end;
 
-    Library:SetWatermark(('HUZ HUB  | %s fps | %s ms'):format(
+    Library:SetWatermark(('STAR HUB | %s fps | %s ms'):format(
         math.floor(FPS),
         math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())
     ));
@@ -303,10 +303,10 @@ end)
 
 -- Main
 
-local AutoShakeGroup = Tabs.Main:AddLeftGroupbox('AutoShake')
-local AutoReelGroup = Tabs.Main:AddLeftGroupbox('AutoReel')
-local AutoCastGroup = Tabs.Main:AddLeftGroupbox('AutoCast')
-local FishUtilitiesGroup = Tabs.Main:AddRightGroupbox('Fish (🐟) Utilities')
+local AutoShakeGroup = Tabs.Main:AddLeftGroupbox('เขย่าอัตโนมัติ')
+local AutoReelGroup = Tabs.Main:AddLeftGroupbox('กดออโต้')
+local AutoCastGroup = Tabs.Main:AddLeftGroupbox('ตกออโต้')
+local FishUtilitiesGroup = Tabs.Main:AddRightGroupbox('Fish (🐟) รออัปเดต')
 --local EventGroup = Tabs.Main:AddRightGroupbox('Event')
 local ZoneCastGroup = Tabs.Main:AddRightGroupbox('ZoneCast')
 local CollarPlayerGroup = Tabs.Main:AddRightGroupbox('CollarPlayer')
@@ -833,4 +833,4 @@ task.spawn(function()
             Library:Notify("Join our fisch discord server to get the new script.")
         end
     end
-end)
+end
