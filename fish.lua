@@ -306,10 +306,11 @@ end)
 local AutoShakeGroup = Tabs.Main:AddLeftGroupbox('AutoShake')
 local AutoReelGroup = Tabs.Main:AddLeftGroupbox('AutoReel')
 local AutoCastGroup = Tabs.Main:AddLeftGroupbox('AutoCast')
-local FishUtilitiesGroup = Tabs.Main:AddRightGroupbox('Fish (🐟) ')
+local FishUtilitiesGroup = Tabs.Main:AddRightGroupbox('Fish (🐟) Utilities')
 --local EventGroup = Tabs.Main:AddRightGroupbox('Event')
 local ZoneCastGroup = Tabs.Main:AddRightGroupbox('ZoneCast')
 local CollarPlayerGroup = Tabs.Main:AddRightGroupbox('CollarPlayer')
+
 
 AutoShakeGroup:AddToggle('AutoShake', {
     Text = 'Enabled',
