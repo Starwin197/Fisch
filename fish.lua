@@ -303,10 +303,10 @@ end)
 
 -- Main
 
-local AutoShakeGroup = Tabs.Main:AddLeftGroupbox('เขย่าอัตโนมัติ')
-local AutoReelGroup = Tabs.Main:AddLeftGroupbox('กดออโต้')
-local AutoCastGroup = Tabs.Main:AddLeftGroupbox('ตกออโต้')
-local FishUtilitiesGroup = Tabs.Main:AddRightGroupbox('Fish (🐟) รออัปเดต')
+local AutoShakeGroup = Tabs.Main:AddLeftGroupbox('AutoShake')
+local AutoReelGroup = Tabs.Main:AddLeftGroupbox('AutoReel')
+local AutoCastGroup = Tabs.Main:AddLeftGroupbox('AutoCast')
+local FishUtilitiesGroup = Tabs.Main:AddRightGroupbox('Fish (🐟) ')
 --local EventGroup = Tabs.Main:AddRightGroupbox('Event')
 local ZoneCastGroup = Tabs.Main:AddRightGroupbox('ZoneCast')
 local CollarPlayerGroup = Tabs.Main:AddRightGroupbox('CollarPlayer')
